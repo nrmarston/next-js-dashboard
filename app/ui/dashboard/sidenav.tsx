@@ -1,11 +1,11 @@
 import Link from "next/link";
 import NavLinks from "@/app/ui/dashboard/nav-links";
 import AcmeLogo from "@/app/ui/acme-logo";
-import { PowerIcon } from "@heroicons/react/24/outline";
+import { PowerIcon } from "@heroicons/react/24/solid";
 
 export default function SideNav() {
   return (
-    <div className="flex h-full flex-col px-4 py-4 md:px-2">
+    <div className="flex h-full flex-col px-4 py-4 md:px-2 md:py-2">
       <Link
         className="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-700 p-4 md:h-40"
         href="/"
